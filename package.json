@@ -1,0 +1,21 @@
+{
+  "author": "adrian rossouw",
+  "name": "tpbsearch",
+  "description": "proxy to search tpb for torrents",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "engines": {
+    "node": "~v0.4.10"
+  },
+  "dependencies": {
+      "express": "v2.5.3",
+      "underscore": "v1.3.1",
+      "request": "v2.9.x",
+      "jade": "v0.20.1",
+      "jquery": "v1.6.3"
+  },
+  "devDependencies": {}
+}
