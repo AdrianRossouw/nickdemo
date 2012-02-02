@@ -7,6 +7,9 @@ var _ = require('underscore')._;
 
 app.use(express.bodyParser());
 
+app.set('view engine', 'jade');
+
+
 app.get('/', function(req, res){
     res.send('Hello World');
 });
@@ -27,6 +30,11 @@ app.get('/api/:type/:id', loadData);
 app.get('/api/:type/:id', function(req, res) {
     res.send(req._data);
 });
+
+app.get('/:type/:id', loadData, function(req, res) {
+
+})
+
 
 function saveData(req, res, next) {
     var opts = {
