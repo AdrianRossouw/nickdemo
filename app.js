@@ -45,7 +45,7 @@ function saveData(req, res, next) {
 
     request(opts, function(err, resp, data) {
         if (err || resp.statusCode) {
-            req._error = err || resp.statusCode;
+            req._error = err || resp.statusCode != 201;
             return next();
         }
 
