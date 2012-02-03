@@ -1,14 +1,14 @@
 {
   "author": "adrian rossouw",
-  "name": "tpbsearch",
-  "description": "proxy to search tpb for torrents",
+  "name": "nickdemo",
+  "description": "quick demo for nick",
   "version": "0.0.0",
   "repository": {
     "url": ""
   },
   "main": "index.js",
   "engines": {
-    "node": "~v0.4.10"
+    "node": "~v0.4.12"
   },
   "dependencies": {
       "express": "v2.5.3",
