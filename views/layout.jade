@@ -1,0 +1,25 @@
+!!! 5
+html(lang="en")
+  head
+    title= pageTitle
+    style
+      body {
+        margin:50px 0px; padding:0px;
+        text-align:center;
+         background: url('/bg.png');
+        }
+
+      #container {
+        width:500px;
+        margin:0px auto;
+        text-align:left;
+        padding:15px;
+        border:1px dashed #333;
+        background-color: rgba(0,0,0 , 0.1);
+        }
+      #error { color: red }
+          
+  body
+    #container
+      h1 Jade - node template engine
+      != body

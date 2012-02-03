@@ -15,7 +15,8 @@
       "underscore": "v1.3.1",
       "request": "v2.9.x",
       "jade": "v0.20.1",
-      "jquery": "v1.6.3"
+      "jquery": "v1.6.3",
+      "socket.io": "latest"
   },
   "devDependencies": {}
 }
