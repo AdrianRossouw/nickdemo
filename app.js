@@ -38,7 +38,7 @@ function loadData(req, res, next) {
 
 function saveData(req, res, next) {
     var opts = {
-        url: 'http://127.0.0.1:5984/'+req.params.type+'/'+req.params.id,
+        url: 'http://127.0.0.1:5984/'+req.params.type+'/'+req.body.id,
         method: 'PUT',
         body: JSON.stringify(req.body)
     }
